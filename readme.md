@@ -1,3 +1,22 @@
+### Sample UDP Broadcast Server
+This simulates the echo webserver broadcast
+
+Run with Node.js
+```
+node DesktopUDPBroadcaster.js
+```
+Or with Coffeescript
+```
+coffee DesktopUDPBroadcaster.coffee
+```
+### IOS Sample Project
+Simply open the XCWorkspace in XCode 7.2.1+ and compile onto an iPhone.
+*Note: if you try to run the IOS Sample Project in the IOS simulator on the same computer that is running the Broadcast server, you will get a "UDP Address in use error".  Just run the project or server on another computer on the same network*
+```
+open T100Scanner.xcworkspace
+```
+## To build your own Swift project from scratch
+
 ### Install Cocoapod
 Add CocoaAsyncSocket to your Podfile
 ```
