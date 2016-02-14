@@ -1,4 +1,4 @@
-### install Cocoapod
+### Install Cocoapod
 add to your Podfile
 ```
 use_frameworks!
@@ -7,8 +7,9 @@ pod 'CocoaAsyncSocket'
 ### Import CocoaAsyncSocket
 Add this to the beginning of your Swift View Controller
 ```
-add delegate GCDAsyncUdpSocketDelegate
+import CocoaAsyncSocket
 ```
+Now add the **GCDAsyncUdpSocketDelegate** delegate to your view controller
 ### Set global variable
 This is the Diciontary that stores all of the active echo servers on your subnet.
 ```
